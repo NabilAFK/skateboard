@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #3f221c;
+    overflow: hidden; 
+}
+
+:root {
+    --gradient: linear-gradient(to right, #9ef729
+    ,#5ed441,#1dcf61,#37a0c0,#1dcf61,#5ed441,#9ef729);
+}
+
+.view-container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: deepskyblue; 
+    
+}
+
+.btn-start{
+
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    height: 200px;
+    width: 400px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    outline: none;
+    color: var(--gradient);
+    text-shadow: 0px 0px 30px #444;
+    border: 5px solid  black;
+    border-radius: 300px;
+    background:  var(--gradient);
+    background-size: 300% 300%;
+    animation: colors 4s ease infinite;
+}
+
+
+
+.area {
+    height: 70vh;
+    width: 100vw;
+    border-bottom: 30px solid #12470e;
+}
+
+
+.sun{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    box-shadow: 0 2px 30px yellow;
+    background-color: rgba(255, 255, 13, 0.918);
+    animation: sunshine 3s ease infinite;
+    
+}
+
+@keyframes colors{
+
+    0% {
+        background-position: 0% 150%;
+    }
+
+    100% {
+        background-position: 150% 300%;
+    }
+    
+}
+
+@keyframes sunshine {
+
+    0% {
+        box-shadow: 0 4px 50px rgb(253, 250, 34); 
+        background-color: rgb(253, 253, 71);
+    }
+
+    50% {
+        box-shadow: 0 10px 60px rgb(253, 250, 34);
+        background-color: rgb(247, 247, 0);
+    }
+
+    100% {
+        box-shadow: 0 20px 100px rgb(253, 250, 34);
+        background-color: rgb(253, 253, 71);
+    }
+
+}
+.cloud-container {
+    position: absolute;
+    top: -10px;
+    left: 250px;
+    width: 200px;
+    height: 100px;
+}
+
+.cloud-container2 {
+
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    width: 200px;
+    height: 100px;
+
+}
+
+.cloud {
+
+    position: absolute;
+    top: 30px;
+    height: 72px;
+    width: 80px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 40px;
+    box-shadow: 0 0 8px rgba(231, 231, 231, 0.993);
+
+}
+
+
+.left-cloud {
+
+    right: 108px;   
+    
+}
+
+.middle-cloud {
+
+    top: 15px;
+    height: 90px;
+    right: 145px;
+
+}
+
+.right-cloud {
+
+    right: 180px;
+  
+}
+
+.ground {
+    
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(89, 99, 81) ;
+}

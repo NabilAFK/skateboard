@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/person.css">
+    <link rel="stylesheet" type="text/css" href="css/skate.css">
+    <link rel="stylesheet" type="text/css" href="css/obstacle.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <title>Animation</title>
+</head>
+<body>
+    <div class="game-container">
+
+            <button class="btn-start" onclick="start()" id="btn-start">Start</button>
+        
+            <div class="sun"></div>
+
+            <div class="cloud-container">
+                <div class="left-cloud cloud"></div>
+                <div class="middle-cloud cloud"></div>
+                <div class="right-cloud cloud"></div>
+            </div>
+            <div class="cloud-container2">
+                <div class="left-cloud cloud"></div>
+                <div class="middle-cloud cloud"></div>
+                <div class="right-cloud cloud"></div>
+            </div>
+
+            <div class="view-container">
+                <div class="area">
+                    <div class="container-person" id="container-person">
+
+                        <div class="person" id="person">
+                            <div class="head">
+                                <div class="cap"></div>
+                                <div class="mask"></div>
+                             </div>
+     
+                             <div class="arm1" id="arm1"></div>
+                             <div class="body"></div>
+                             <div class="arm2" id="arm2"></div>
+     
+                             <div class="legs" id="legs">
+                                 <div class="leg1" id="leg1">
+                                     <div class="foot1" id="foot1"></div>
+                                 </div>
+                                 <div class="leg2" id="leg2">
+                                     <div class="foot2" id="foot2"></div>
+                                 </div>
+                             </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                
+            </div>
+            <div class="ground" id="ground">
+            </div>
+        </div>
+    <script src="js/script.js"></script>
+    <script src="js/skate.js"></script>
+    <script src="js/roles.js"></script>
+    <script src="js/obstacle.js"></script>
+</body>
+</html>
