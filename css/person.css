@@ -11,9 +11,8 @@
 
 .jump {
 
-    animation: jump 0.5s ease-in-out;
+    animation: jump .5s ease-in-out;
 }
-
 
 @keyframes jump {
 
@@ -30,6 +29,20 @@
     }
 
 }
+.shake {
+
+    animation: shake .1s infinite;
+}
+
+@keyframes shake {
+
+    0% { top: 235px; }
+    50% { top: 234px; }
+    100% { top: 235px; }
+
+}
+
+
 
 .person {
     position: relative;

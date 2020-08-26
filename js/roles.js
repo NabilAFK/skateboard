@@ -18,9 +18,12 @@ function jump() {
     
     let person = document.querySelector('#container-person')
     
-         
-    person.classList.toggle('jump')
-  
+
+        person.classList.toggle('shake')
+        
+        person.classList.toggle('jump')
+        
+    
 
 }
 

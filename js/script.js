@@ -42,28 +42,7 @@ function appear() {
 
 function animate() {
 
-    
-    /* 
-    PROBLEMAS 
-    document.body.onclick = function moviment() {
-
-
-        if(walkingTrought){
-
-            clearInterval(walking, 10) 
-            clearInterval(walk, 10) 
-
-            walkingTrought = false
-
-        }
-        if(!walkingTrought){
-
-            walking = setInterval(bodyMoove, 10)
-            walk = setInterval(walkMoove, 10)
-
-        }
-    } */
-    
+   
     let person = document.querySelector('#container-person')
     let leg1 = document.querySelector('#leg1')
     let leg2 = document.querySelector('#leg2')
@@ -78,17 +57,20 @@ function animate() {
     
     //let bodyMovement = setInterval(bodyMoove, 10)
     let personMovement = setInterval(walkMoove, 8)
+    person.classList.add('shake')
     
     function walkMoove(){
 
         step ++
         person.style.left = step +'px'
+
         if(step > 400 ){
            
             document.querySelector('.box').style.animation = 'box-move 3s linear infinite'
 
             clearInterval(personMovement)
         }  
+
     }
 
     //
