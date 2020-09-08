@@ -3,7 +3,7 @@
 Skate Game is a game project started to encourage everyone to learn CSS, HTML and Javascript while having fun. 
 
 ## Preview
-<img src="img/game.jpg">
+<img src="img/skate-game.jpg">
 
 ### About the game
 * The game was implemented with the features of animating the character to walk straight on the skateboard, to jump use the space key.
