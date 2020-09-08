@@ -8,6 +8,7 @@
     background-color: black;
     border-radius: 0px 0px 5px 5px;
     border-bottom:solid 2px chocolate;
+    
 }
 
 .wheel1 {
@@ -18,8 +19,7 @@
     height: 10px;
     border-radius: 10px;
     background-color: black;
-
-
+    box-shadow: 5px 2px 0px black;
 }
 .wheel2 {
 
@@ -30,6 +30,6 @@
     height: 10px;
     border-radius: 10px;
     background-color: black;
-  
+    box-shadow: 5px 2px 0px black;
 
 }
