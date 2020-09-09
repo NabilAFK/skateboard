@@ -1,6 +1,7 @@
 # Skate Game
 
-Skate Game is a game project started to encourage everyone to learn CSS, HTML and Javascript while having fun. 
+Skate Game is a game project started to encourage everyone to learn CSS, HTML and Javascript while having fun.
+ 
 
 ## Preview
 <img src="img/skate-game.jpg">
@@ -25,4 +26,4 @@ know how many bits your processor has</a> ).
 
 * Open your command prompt, go to the location where you want to place the repository, if necessary create a folder with the command "mkdir folder-name".
 * After creating the folder, type the command "cd folder-name-created" to access the folder you created, then type the command "git clone https: // hostname / YOUR-USERNAME / YOUR-REPOSITORY".
-* Acesse a pasta do repositório e clique no arquivo "index.html" para exibir o resultado do código no seu browser and have fun.
+* Access the repository folder and click on the "index.html" file to display the result of the code in your browser and have fun.
